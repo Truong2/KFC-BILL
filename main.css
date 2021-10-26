@@ -1,0 +1,135 @@
+html{
+    background: linear-gradient(135deg,rgb(207, 132, 132) 0%,rgb(184, 181, 47) 50%,rgb(99, 150, 180) 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    width: 600px;
+    margin: 100px auto;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(231, 68, 68);
+}
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(25%);
+}
+.header-logo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.container{
+    margin-top: 45px;
+    padding: 0 10px;
+}
+.container-heading{
+    text-align: center;
+    font-size: 16px;
+}
+.order-KFC{
+
+}
+.list-order{
+    display: flex;
+    flex-direction: column;
+}
+.item-order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.KFC-name{
+    flex-basis: 33.333%;
+}
+.KFC-quantity{
+    flex-basis: 33.333%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.increase i,
+.reduce i{
+    width: 30px;
+    height: 30px;
+    color: rgb(105, 105, 100);
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.KFC-price{
+    flex-basis: 33.333%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.price{
+    margin-right: 20px;
+}
+.KFC-price i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(105, 105, 100);
+    border-radius:50%;
+}
+.KFC-price i:hover,
+.increase i:hover,
+.reduce i:hover{
+    background-color:rgb(206, 206, 206);
+    cursor: pointer;
+}
+.add-KFC{
+    width: 200px;
+    height: 40px;
+}
+.bill-KFC{
+    margin-top: 20px;
+    background-color:rgb(192, 192, 192);
+    padding: 10px 8px;
+}
+.bill-item{
+    display: flex;
+    justify-content: space-between;
+}
+.Submit-KFC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.sumbit{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(235, 128, 128);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.sumbit:hover{
+    cursor: pointer;
+    background-color:rgb(226, 74, 74);
+}
